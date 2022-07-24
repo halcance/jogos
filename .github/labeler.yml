@@ -1,0 +1,21 @@
+core:
+  - quantum/**/*
+  - tmk_core/**/*
+  - drivers/**/*
+  - tests/**/*
+  - util/**/*
+  - platforms/**/*
+  - Makefile
+  - '*.mk'
+dependencies:
+  - any:
+    - 'lib/**/*'
+    - '!lib/python/**/*'
+keyboard:
+  - any:
+    - 'keyboards/**/*'
+    - '!keyboards/**/keymaps/**/*'
+keymap:
+  - users/**/*
+  - layouts/**/*
+  - keyboards/**/keymaps/**/*
